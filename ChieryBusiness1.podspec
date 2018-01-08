@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ChieryBusiness1"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "业务1"
 
   # This description is used to generate tags and improve search results.
@@ -99,10 +99,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ChieryBusiness1/**/*.{h,m}", "ChieryBusiness1.h", "$(PODS_ROOT)/**/*.h"
+  s.source_files  = "ChieryBusiness1/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "ChieryBusiness1/**/*.h", "ChieryBusiness1.h", "$(PODS_ROOT)/**/*.h"
+  s.public_header_files = "ChieryBusiness1/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

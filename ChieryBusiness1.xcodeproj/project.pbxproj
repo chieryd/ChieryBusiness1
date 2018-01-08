@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		297DB33F2003838000A4EBB9 /* ChieryBusiness1.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DB33E2003838000A4EBB9 /* ChieryBusiness1.m */; };
-		297DB3402003838000A4EBB9 /* ChieryBusiness1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 297DB33D2003838000A4EBB9 /* ChieryBusiness1.h */; };
+		297DB3402003838000A4EBB9 /* ChieryBusiness1.h in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 297DB33D2003838000A4EBB9 /* ChieryBusiness1.h */; };
 		297DB3622003880F00A4EBB9 /* Business1JumpHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DB3612003880F00A4EBB9 /* Business1JumpHandle.m */; };
+		297DB3822003AF2300A4EBB9 /* Business1JumpHandle.h in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 297DB3602003880F00A4EBB9 /* Business1JumpHandle.h */; };
 		D23F313B4FB5693ADC29826D /* libPods-ChieryBusiness1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D4A3019915E160BF3F83D /* libPods-ChieryBusiness1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		297DB3382003838000A4EBB9 /* CopyFiles */ = {
+		297DB3382003838000A4EBB9 /* Copy Files (2 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				297DB3402003838000A4EBB9 /* ChieryBusiness1.h in CopyFiles */,
+				297DB3822003AF2300A4EBB9 /* Business1JumpHandle.h in Copy Files (2 items) */,
+				297DB3402003838000A4EBB9 /* ChieryBusiness1.h in Copy Files (2 items) */,
 			);
+			name = "Copy Files (2 items)";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -111,7 +114,7 @@
 				4EA6B5FE57D7CF79CA794BBF /* [CP] Check Pods Manifest.lock */,
 				297DB3362003838000A4EBB9 /* Sources */,
 				297DB3372003838000A4EBB9 /* Frameworks */,
-				297DB3382003838000A4EBB9 /* CopyFiles */,
+				297DB3382003838000A4EBB9 /* Copy Files (2 items) */,
 				E3E451916D718178266907B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
