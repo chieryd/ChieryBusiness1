@@ -6,8 +6,8 @@
 //  Copyright © 2018年 com.chiery.com. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ChieryBusiness1 : NSObject
+@interface ChieryBusiness1 : UIViewController
 
 @end
