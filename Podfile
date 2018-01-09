@@ -21,6 +21,7 @@ target 'ChieryBusiness1App' do
     pod 'ChieryCommonKit'
     pod 'ChieryVCController'
     pod 'ChieryJumpHandle'
+    pod 'ChieryBusiness2'
 
 end
 
