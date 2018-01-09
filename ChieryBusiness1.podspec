@@ -85,11 +85,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/chieryd/ChieryBusiness1.git", :tag => "#{s.version}" }
 
 
+  s.dependency "ChieryJumpHandle"
   s.dependency "ChieryConfigure"
   s.dependency "ChieryCommonKit"
   s.dependency "ChieryHomePage"
   s.dependency "ChieryVCController"
-  s.dependency "ChieryJumpHandle"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
