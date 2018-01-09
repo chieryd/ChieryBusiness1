@@ -11,6 +11,8 @@
 		297DB3402003838000A4EBB9 /* ChieryBusiness1.h in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 297DB33D2003838000A4EBB9 /* ChieryBusiness1.h */; };
 		297DB3622003880F00A4EBB9 /* Business1JumpHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DB3612003880F00A4EBB9 /* Business1JumpHandle.m */; };
 		297DB3822003AF2300A4EBB9 /* Business1JumpHandle.h in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 297DB3602003880F00A4EBB9 /* Business1JumpHandle.h */; };
+		297DB3CA200470C500A4EBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297DB3C8200470C500A4EBB9 /* LaunchScreen.storyboard */; };
+		297DB3CD200470C500A4EBB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 297DB3CC200470C500A4EBB9 /* main.m */; };
 		D23F313B4FB5693ADC29826D /* libPods-ChieryBusiness1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D4A3019915E160BF3F83D /* libPods-ChieryBusiness1.a */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +38,10 @@
 		297DB33E2003838000A4EBB9 /* ChieryBusiness1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChieryBusiness1.m; sourceTree = "<group>"; };
 		297DB3602003880F00A4EBB9 /* Business1JumpHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Business1JumpHandle.h; sourceTree = "<group>"; };
 		297DB3612003880F00A4EBB9 /* Business1JumpHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Business1JumpHandle.m; sourceTree = "<group>"; };
-		2EAEF72616EA2086AA861788 /* libPods-ChieryBusiness1App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChieryBusiness1App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297DB3BB200470C500A4EBB9 /* ChieryBusiness1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChieryBusiness1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297DB3C9200470C500A4EBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297DB3CB200470C500A4EBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297DB3CC200470C500A4EBB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CC772617A051FA9EB92BB6D /* Pods-ChieryBusiness1App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChieryBusiness1App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChieryBusiness1App/Pods-ChieryBusiness1App.release.xcconfig"; sourceTree = "<group>"; };
 		544D4A3019915E160BF3F83D /* libPods-ChieryBusiness1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChieryBusiness1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927CE17048997C77E63EEE56 /* Pods-ChieryBusiness1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChieryBusiness1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChieryBusiness1/Pods-ChieryBusiness1.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		297DB3B8200470C500A4EBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				297DB33C2003838000A4EBB9 /* ChieryBusiness1 */,
+				297DB3BC200470C500A4EBB9 /* ChieryBusiness1App */,
 				297DB33B2003838000A4EBB9 /* Products */,
 				EFE701B60B0A3405882916EC /* Pods */,
 				64D15F1F27AC91661CD9A364 /* Frameworks */,
@@ -69,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				297DB33A2003838000A4EBB9 /* libChieryBusiness1.a */,
+				297DB3BB200470C500A4EBB9 /* ChieryBusiness1App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,11 +98,20 @@
 			path = ChieryBusiness1;
 			sourceTree = "<group>";
 		};
+		297DB3BC200470C500A4EBB9 /* ChieryBusiness1App */ = {
+			isa = PBXGroup;
+			children = (
+				297DB3C8200470C500A4EBB9 /* LaunchScreen.storyboard */,
+				297DB3CB200470C500A4EBB9 /* Info.plist */,
+				297DB3CC200470C500A4EBB9 /* main.m */,
+			);
+			path = ChieryBusiness1App;
+			sourceTree = "<group>";
+		};
 		64D15F1F27AC91661CD9A364 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				544D4A3019915E160BF3F83D /* libPods-ChieryBusiness1.a */,
-				2EAEF72616EA2086AA861788 /* libPods-ChieryBusiness1App.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +149,23 @@
 			productReference = 297DB33A2003838000A4EBB9 /* libChieryBusiness1.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		297DB3BA200470C500A4EBB9 /* ChieryBusiness1App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297DB3CE200470C500A4EBB9 /* Build configuration list for PBXNativeTarget "ChieryBusiness1App" */;
+			buildPhases = (
+				297DB3B7200470C500A4EBB9 /* Sources */,
+				297DB3B8200470C500A4EBB9 /* Frameworks */,
+				297DB3B9200470C500A4EBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChieryBusiness1App;
+			productName = ChieryBusiness1App;
+			productReference = 297DB3BB200470C500A4EBB9 /* ChieryBusiness1App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -136,6 +176,10 @@
 				ORGANIZATIONNAME = com.chiery.com;
 				TargetAttributes = {
 					297DB3392003838000A4EBB9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					297DB3BA200470C500A4EBB9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -155,9 +199,21 @@
 			projectRoot = "";
 			targets = (
 				297DB3392003838000A4EBB9 /* ChieryBusiness1 */,
+				297DB3BA200470C500A4EBB9 /* ChieryBusiness1App */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297DB3B9200470C500A4EBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297DB3CA200470C500A4EBB9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		4EA6B5FE57D7CF79CA794BBF /* [CP] Check Pods Manifest.lock */ = {
@@ -208,7 +264,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		297DB3B7200470C500A4EBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297DB3CD200470C500A4EBB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		297DB3C8200470C500A4EBB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297DB3C9200470C500A4EBB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		297DB3412003838000A4EBB9 /* Debug */ = {
@@ -343,6 +418,36 @@
 			};
 			name = Release;
 		};
+		297DB3CF200470C500A4EBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN863V35DU;
+				INFOPLIST_FILE = ChieryBusiness1App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chiery.ChieryBusiness1App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		297DB3D0200470C500A4EBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN863V35DU;
+				INFOPLIST_FILE = ChieryBusiness1App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chiery.ChieryBusiness1App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -360,6 +465,15 @@
 			buildConfigurations = (
 				297DB3442003838000A4EBB9 /* Debug */,
 				297DB3452003838000A4EBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297DB3CE200470C500A4EBB9 /* Build configuration list for PBXNativeTarget "ChieryBusiness1App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297DB3CF200470C500A4EBB9 /* Debug */,
+				297DB3D0200470C500A4EBB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

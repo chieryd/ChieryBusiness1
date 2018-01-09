@@ -14,13 +14,13 @@ target 'ChieryBusiness1' do
 
 end
 
-#target 'ChieryBusiness1App' do
-#
-#    pod 'ChieryConfigure'
-#    pod 'ChieryHomePage'
-#    pod 'ChieryCommonKit'
-#    pod 'ChieryVCController'
-#    pod 'ChieryJumpHandle'
-#
-#end
+target 'ChieryBusiness1App' do
+
+    pod 'ChieryConfigure'
+    pod 'ChieryHomePage'
+    pod 'ChieryCommonKit'
+    pod 'ChieryVCController'
+    pod 'ChieryJumpHandle'
+
+end
 
